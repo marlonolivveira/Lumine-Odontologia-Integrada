@@ -1,0 +1,28 @@
+.container__card{
+    background-color: var(--cor-padrao-laranja);
+    border-radius: 100px;
+}
+
+.info__tratamento{
+    text-align: center;
+    padding: 1rem;
+}
+
+.info__tratamento p{
+    padding-top: 1rem;
+}
+
+.container__tratamentos{
+    text-align: center;
+    color: white;
+}
+
+.item__tratamento{
+    padding: 0.5rem;
+}
+
+.item__tratamento img{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}

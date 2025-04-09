@@ -1,0 +1,42 @@
+@import url(header.css);
+@import url(sobre.css);
+@import url(alumine.css);
+@import url(case-sucess.css);
+@import url(tratamentos.css);
+@import url(localizacao-contato.css);
+
+:root{
+    --cor-padrao-laranja: #da682c;
+    --cor-padrao-rosa: #b3355a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-mid{
+    width: min(100%, 400px);
+    filter: 
+    brightness(0) 
+    saturate(100%) 
+    invert(22%) 
+    sepia(99%) 
+    saturate(1812%) 
+    hue-rotate(310deg) 
+    brightness(89%) 
+    contrast(91%);
+}
+
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #f5f5f5;
+}
+

@@ -1,0 +1,27 @@
+.div__sobre{
+    display: block;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: var(--cor-padrao-laranja);
+    border-radius: 0 0 100px 100px;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    font-size: 1rem;
+}
+
+.div__sobre h1{
+    padding-bottom: 1rem;
+}
+
+.img__BiaMaria{
+    max-width: 100vw;
+    display: block;
+    position: relative;
+}
+
+.container{
+    padding: 1.5rem;
+}

@@ -1,0 +1,134 @@
+.logo img{
+    width: 15rem;
+    background-position: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.cabecalho{
+    background-color: var(--cor-padrao-laranja);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    /* top: 0;
+    left: 0;
+    right: 0; */
+    /* z-index: 1000; */
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+}
+
+.menu-container{
+    position: relative;
+}
+
+.menu__hamburguer {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("../assets/menu-aberto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1001;
+}
+
+.container__botao:checked ~ label .menu__hamburguer {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.list-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 65vh;
+    background-color: white;
+    z-index: 1000;
+    animation: slideIn 0.3s ease-out;
+    overflow: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    border-radius: 150px 0 0 150px;
+}
+
+.close-menu-label {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu__close {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("../assets/x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    padding: 2rem;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.container__botao:checked ~ .list-menu {
+    display: block;
+}
+
+.list-menu ul {
+    margin-top: 3rem;
+    padding: 0;
+    height: 100%;
+}
+
+.list-menu__item {
+    padding: 1rem;
+    text-align: right;
+    list-style: none;
+}
+
+.list-menu__link {
+    color: var(--cor-padrao-laranja);
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    /* transition: color 0.3s ease; */
+}
+
+.list-menu__link:hover {
+    color: var(--cor-padrao-rosa);
+}
+
+.container__botao {
+    display: none;
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+    display: none;
+}
+
+.container__botao:checked ~ .menu-overlay {
+    display: block;
+}
+
+

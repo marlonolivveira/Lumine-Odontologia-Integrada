@@ -1,0 +1,14 @@
+.container__map{
+    display: block;
+    text-align: center;
+}
+
+.container__map h1{
+    padding-top: 1rem;
+}
+
+.contato p{
+    text-align: left;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
