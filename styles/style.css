@@ -4,6 +4,7 @@
 @import url(case-sucess.css);
 @import url(tratamentos.css);
 @import url(localizacao-contato.css);
+@import url(avaliacao.css);
 
 :root{
     --cor-padrao-laranja: #da682c;
@@ -14,6 +15,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
