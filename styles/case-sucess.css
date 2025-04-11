@@ -4,7 +4,7 @@
 }
 
 .section-case-sucess h1{
-    color: white;
+    color: var(--cor-padrao-branca);
     font-weight: bold;
     font-size: 25px;
     text-align: center;
@@ -12,14 +12,14 @@
 
 .section-case-sucess h3 {
     font-size: 20px;
-    color: white;
+    color: var(--cor-padrao-branca);
     padding-bottom: 0.5rem;
     max-width: 90%;
 }
 
 .section-case-sucess p {
     text-align: left;
-    color: white;
+    color: var(--cor-padrao-branca);
     line-height: 1.3;
 }
 

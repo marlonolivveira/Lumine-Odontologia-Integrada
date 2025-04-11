@@ -9,6 +9,7 @@
 :root{
     --cor-padrao-laranja: #da682c;
     --cor-padrao-rosa: #b3355a;
+    --cor-padrao-branca: white;
 }
 
 *{
@@ -42,6 +43,6 @@ body{
 footer {
     text-align: center;
     padding: 2rem;
-    background: #f5f5f5;
+    background: var(--cor-padrao-branca);
 }
 

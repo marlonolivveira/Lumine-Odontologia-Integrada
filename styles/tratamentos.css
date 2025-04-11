@@ -14,7 +14,7 @@
 
 .container__tratamentos{
     text-align: center;
-    color: white;
+    color: var(--cor-padrao-branca);
 }
 
 .item__tratamento{

@@ -17,4 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
             menuCheckbox.checked = false;
         });
     });
+    document.getElementById("year").textContent = new Date().getFullYear()
 });
+
