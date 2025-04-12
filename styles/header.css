@@ -147,7 +147,7 @@
     }
 
     .menu__section{
-        display: inline;
+        display: flex;
     }
 
     .list-sections ul{
@@ -166,4 +166,19 @@
         justify-content: center;
     }
     
+}
+
+
+@media screen and (min-width: 1728px){
+    .logo img{
+        width: 15rem;
+        background-position: center;
+        justify-content: center;
+    }
+
+    .list-menu__link {
+        color: var(--cor-padrao-branca);
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
 }

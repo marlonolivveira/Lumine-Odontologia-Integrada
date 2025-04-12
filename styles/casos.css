@@ -64,3 +64,17 @@
     }
 
 }
+
+@media screen and (min-width: 1440px){
+
+    .container-case{
+        max-width: 80%;
+    }
+
+    .container__sucess{
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+    
+}

@@ -36,3 +36,11 @@
     }
 
 }
+
+@media screen and (min-width: 1440px){
+
+    .container__card{
+        margin: 0 auto;
+        max-width: 80%;
+    }
+}
