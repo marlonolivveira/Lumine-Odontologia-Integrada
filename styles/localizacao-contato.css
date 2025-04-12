@@ -9,21 +9,38 @@
 
 .contato p{
     text-align: left;
-    padding: 0.5rem;
-    font-size: 1rem;
-    line-height: 1.3;
+    padding: 0.3rem;
 }
 
 .contato a{
     text-decoration: none;
 }
 
+.p-insta{
+    display: none;
+}
+
 @media screen and (min-width: 1024px){
+
+    .contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
     .contato p{
         display: flex;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
+    }
+
+    .p-insta{
+        display: inline;
+    }
+
+    .insta-mobile{
+        display: none !important;
     }
 
 }
