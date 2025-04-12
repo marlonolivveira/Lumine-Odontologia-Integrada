@@ -39,6 +39,10 @@ body{
     contrast(91%);
 }
 
+.centraliza-logo{
+    text-align: center;
+}
+
 
 footer {
     text-align: center;
