@@ -18,7 +18,7 @@
     line-height: 1.5rem;
 }
 
-.contato a{
+.contato-mobile a{
     text-decoration: none;
 }
 
@@ -41,6 +41,10 @@
         align-items: center;
         padding: 0.5rem;
 
+    }
+
+    .contato a{
+        text-decoration: none;
     }
 
     .contato-mobile{
