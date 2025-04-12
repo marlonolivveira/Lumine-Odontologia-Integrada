@@ -10,3 +10,15 @@
     padding-top: 0.2rem;
     margin-left: 1.5rem;
 }
+
+@media screen and (min-width: 1024px){
+
+    .container__video{
+        text-align: center;
+    }
+
+    video{
+        width: 60%;
+    }
+    
+}
