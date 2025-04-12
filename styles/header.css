@@ -131,4 +131,39 @@
     display: block;
 }
 
+.menu__section{
+    display: none;
+}
 
+@media screen and (min-width: 1024px){
+
+    .menu-container{
+        display: none;
+    }
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu__section{
+        display: inline;
+    }
+
+    .list-sections ul{
+        display: flex;
+    }
+
+    .list-menu__link {
+        color: var(--cor-padrao-branca);
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .logo img{
+        width: 10rem;
+        background-position: center;
+        justify-content: center;
+    }
+    
+}

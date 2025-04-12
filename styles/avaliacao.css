@@ -107,3 +107,10 @@
     box-shadow: 0 0 1.25rem rgba(37, 211, 102, 0.8);
 }
 
+@media screen and (min-width: 1024px){
+    .whatsapp-float {
+        background-image: url("../assets/whatsapp64.png");
+        width: 4rem;
+        height: 4rem;
+    }
+}

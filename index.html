@@ -5,8 +5,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Lumine Odontologia Integrada</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/reset.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://player.vimeo.com/api/player.js"></script>
@@ -37,6 +37,18 @@
                 </ul>
             </nav>
         </div>
+        <div class="menu__section">
+            <nav class="list-sections">
+                <ul>
+                    <li class="list-menu__item"><a class="list-menu__link" href="#sobre">Sobre nós</a></li>
+                    <li class="list-menu__item"><a class="list-menu__link" href="#lumine">A Lumine</a></li>
+                    <li class="list-menu__item"><a class="list-menu__link" href="#casos">Nossos casos</a></li>
+                    <li class="list-menu__item"><a class="list-menu__link" href="#tratamentos">Tratamentos disponíveis</a></li>
+                    <li class="list-menu__item"><a class="list-menu__link" href="#localizacao-contato">Localização & Contato</a></li>
+                    <li class="list-menu__item"><a class="list-menu__link" href="#avaliacao">Avalição</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -52,7 +64,7 @@
                     </p>
                 </div>
     
-                <div>
+                <div class="container__central">
                     <img class="img__BiaMaria" src="assets/BiaMaria.png" alt="Drª Bianca e Maria">
                 </div>
             </div>
@@ -66,7 +78,7 @@
                 <video width="100%" height="auto" controls>
                     <source src="assets/video/a-lumine.mp4" type="video/mp4">
                 </video>
-            <div class="alumine">
+            <div class="a-lumine">
                 <p>
                     Somos uma clínica independente especializada em transformar vidas e autoestima através de sorrisos perfeitos. Com atendimento personalizado por duas expertas - uma odontopediatra e outra especialista em clínico geral e próteses - já devolvemos a confiança a mais de 1.000 pacientes.
                 </p>
@@ -100,27 +112,30 @@
                 <h1>Algumas de nossas transformações</h1>
             </div>
             <div>
-                <div class="container-case">
-                    <h3>Lentes de contato</h3>
-                    <p>
-                        Lentes de Contato Dental são facetas ultrafinas de cerâmica que transformam seu sorriso em poucas sessões. Corrigem cor, forma e alinhamento com mínimo desgaste dental, garantindo um resultado natural e duradouro.
-                    <p>
-                        Ideal para quem deseja dentes perfeitos sem procedimentos invasivos. Na Lumine Odontologia Integrada, personalizamos cada lente para harmonizar com seu sorriso natural.                         
-                    </p>
-                    <p>
-                        Agende sua avaliação e conquiste a confiança de sorrir sem preocupações!                        
-                    </p>
+                <div class="container-case row-container container-case-reverse">
+                    <div class="margin__container">
+                        <h3>Lentes de contato</h3>
+                        <p>
+                            Lentes de Contato Dental são facetas ultrafinas de cerâmica que transformam seu sorriso em poucas sessões. Corrigem cor, forma e alinhamento com mínimo desgaste dental, garantindo um resultado natural e duradouro.
+                        <p>
+                            Ideal para quem deseja dentes perfeitos sem procedimentos invasivos. Na Lumine Odontologia Integrada, personalizamos cada lente para harmonizar com seu sorriso natural.                         
+                        </p>
+                        <p>
+                            Agende sua avaliação e conquiste a confiança de sorrir sem preocupações!                        
+                        </p>
+                    </div>
+                    <div>
+                        <img class="" src="assets/lenteDeContato.jpeg" width="300" alt="Caso 3">
+                    </div>
                 </div>
-                <div>
-                    <img class="" src="assets/lenteDeContato.jpeg" width="300" alt="Caso 3">
-                </div>
+
             </div>
             <div>
 
             </div>
             <div>
-                <div class="container-case">
-                    <div>
+                <div class="container-case row-container" >
+                    <div class="margin__container">
                         <h3>Protocolo Dentario</h3>
                         <p>
                             Protocolo Dentário é a solução completa para quem perdeu todos os dentes. Com próteses fixas sobre implantes, devolvemos a função mastigatória e o sorriso em apenas 24 horas.
@@ -134,9 +149,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container-case">
-                <div>
-                    <div>
+            <div>
+                <div class="container-case row-container container-case-reverse">
+                    <div class="margin__container">
                         <h3>Vários tratamentos em conjunto</h3>
                         <p>
                             Para alcançar esse resultado impressionante, combinamos vários tratamentos especializados: começamos com uma limpeza profunda, seguida de restaurações com resina para corrigir formato e tamanho dos dentes, finalizando com um clareamento dental personalizado.

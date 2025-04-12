@@ -40,3 +40,27 @@
     /* width: 100%; */
 }
 
+@media screen and (min-width: 1024px){
+    
+    #casos{
+        padding: 2.2rem;
+    }
+
+    .row-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-case-reverse{
+        flex-direction: row-reverse;
+    }
+
+    .container-case{
+        padding-top: 1rem;
+    }
+
+    .margin__container{
+        padding: 1rem;
+    }
+
+}

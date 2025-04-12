@@ -23,5 +23,22 @@
 }
 
 .container{
-    padding: 1.5rem;
+    padding: 1.1rem;
+}
+
+@media screen and (min-width: 1024px){
+
+    .div__sobre h1{
+        padding: 1rem;
+    }
+
+    .container__central{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img__BiaMaria{
+        max-width: 50vw;
+    }
+    
 }

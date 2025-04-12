@@ -1,10 +1,10 @@
-@import url(header.css);
-@import url(sobre.css);
-@import url(alumine.css);
-@import url(case-sucess.css);
-@import url(tratamentos.css);
-@import url(localizacao-contato.css);
-@import url(avaliacao.css);
+@import url(styles/header.css);
+@import url(styles/sobre.css);
+@import url(styles/alumine.css);
+@import url(styles/casos.css);
+@import url(styles/tratamentos.css);
+@import url(styles/localizacao-contato.css);
+@import url(styles/avaliacao.css);
 
 :root{
     --cor-padrao-laranja: #da682c;
@@ -43,10 +43,8 @@ body{
     text-align: center;
 }
 
-
 footer {
     text-align: center;
     padding: 2rem;
     background: var(--cor-padrao-branca);
 }
-
