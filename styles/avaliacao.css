@@ -10,6 +10,7 @@
 .container__avaliacao h2{
     margin-bottom: 1rem;
     color: var(--cor-padrao-branca);
+    text-align: center;
 }
 
 .container__avaliacao p{

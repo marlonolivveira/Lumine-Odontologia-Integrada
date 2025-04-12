@@ -7,16 +7,22 @@
     padding-top: 1rem;
 }
 
-.contato p{
-    text-align: left;
-    padding: 0.3rem;
+.contato-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contato-mobile p{
+    text-align: center;
+    padding: 0.5rem;
+    line-height: 1.5rem;
 }
 
 .contato a{
     text-decoration: none;
 }
 
-.p-insta{
+.contato{
     display: none;
 }
 
@@ -33,16 +39,13 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        padding: 0.5rem;
+
     }
 
-    .p-insta{
-        display: inline;
+    .contato-mobile{
+        display: none;
     }
-
-    .insta-mobile{
-        display: none !important;
-    }
-
 }
 
 @media screen and (min-width: 1440px){
